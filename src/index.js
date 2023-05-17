@@ -1,5 +1,5 @@
 import './style.css';
-import { showScoreBoard, postRequest } from '../modules/allFunctions';
+import { showScoreBoard, postRequest } from '../modules/allFunctions.js';
 
 const playerName = document.getElementById('name');
 const playerScore = document.getElementById('score');
@@ -18,5 +18,5 @@ add.addEventListener('click', () => {
 });
 
 refresh.addEventListener('click', () => {
-  location.reload();
+  showScoreBoard(board);
 });
