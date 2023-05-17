@@ -13,7 +13,7 @@ const postRequest = async (playerName, playerScore) => {
       score: playerScore,
     }),
   });
-  const result = reply.json();
+  const result = await reply.json();
   return result;
 };
 
@@ -23,8 +23,8 @@ const createList = (scores, board) => {
     output += `
       <li>${score.user} : ${score.score}</li>
     `;
-    board.innerHTML = output;
   });
+  board.innerHTML = output;
 };
 
 const sortRequest = (response, board) => {
@@ -39,7 +39,7 @@ const getRequest = async () => {
 };
 
 const showScoreBoard = (board) => {
-  // board.innerHTML = '';
+  board.innerHTML = '';
   getRequest().then((response) => {
     sortRequest(response, board);
   });
