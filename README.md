@@ -1,12 +1,29 @@
-
 <a name="readme-top"></a>
 
-<div align="center">
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-  <!-- <img src="https://avatars.githubusercontent.com/u/97716175?v=4" alt="logo" width="140"  height="auto" />
-  <br/> -->
+Modify this file to match your project and remove sections that don't apply.
 
-</div>
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
 
 <!-- TABLE OF CONTENTS -->
 
@@ -20,58 +37,129 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Usage](#usage)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Leaderboard<a name="about-project"></a>
+# 📖 [Leaderboard ] <a name="about-project"></a>
 
-> This project is to create a game that uses the Leaderboard API service to obtain and submit scores 
+**Leaderboard** is a project that makes use of the Leaderboard API service for fetching scores and creating games
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> HTML, CSS, Javascript, es6, js modules, webpack
+<details>
+  <summary>HTML</summary>
+  <ul>
+    <li><a href="#">HTML</a></li>
+  </ul>
+</details>
 
+<details>
+  <summary>CSS</summary>
+  <ul>
+    <li><a href="#">CSS</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Js</summary>
+  <ul>
+    <li><a href="#">Js</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Js modules**
+- **Async, promises, callbacks**
+- **API**
+- **Webpack**
 
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: 
+In order to run this project you need: Webpack, and node modules
+
+<!--
+Example command:
 
 ```sh
-sudo install webpack
+ 
 ```
+ -->
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder: https://github.com/mosidrum/Leaderboard
+
+<!--
+Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:mosidrum/Leaderboard.git
+  git clone git@github.com:myaccount/my-project.git
 ```
+--->
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
 
 ### Usage
 
-To run the project, install webpack and execute the following command:
+To run the project, run the following commands:
+
+npm install -g webpack
+npm install webpack --save-dev
+npm run build
+npm start(opens up in your default web browser)
+
+<!--
+Example command:
 
 ```sh
-  Run npm start
+  rails server
 ```
+--->
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+No deployement yet
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,10 +167,11 @@ To run the project, install webpack and execute the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **Author1**
 
-- GitHub: [mosidrum](https://github.com/mosidrum)
-
+- GitHub: [@githubhandle](https://github.com/mosidrum)
+- Twitter: [@twitterhandle](https://twitter.com/mosidrum)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/isaac-ayodele-37890521b)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,16 +179,10 @@ To run the project, install webpack and execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[ Webpack ]**
-- [ ] **[Media Responsiveness]**
-- [ ] **[HTML CSS JS]**
-- [ ] **[Javascript Es6]**
-- [ ] **[Interactive Async, Callbacks, promises]**
-- [ ] **[Javascript Modules]**
-- [ ] **[Javascript APIs]**
+- [ ] **CSS styling**
+- [ ] **Mobile responsiveness**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- CONTRIBUTING -->
 
@@ -107,14 +190,15 @@ To run the project, install webpack and execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mosidrum/Leaderboard/issues)
+Feel free to check the [issues page](https://github.com/mosidrum/Leaderboard/issues).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give me a follow
+If you like this project, support and encourage me and give this project a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,16 +206,15 @@ If you like this project give me a follow
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my friend, John oshalusi for inspiring me to write good, functional clean codes
+I would like to thank God almighty and my coding partner at microverse that guided me through
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://opensource.org/license/mit/) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
