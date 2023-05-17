@@ -5,16 +5,16 @@ const link = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/gam
 const showScoreBoard = (board) => {
   // board.innerHTML = '';
   getRequest().then((response) => {
-    sortRequest(response, board)
+    sortRequest(response, board);
   });
 };
 
 const sortRequest = (response, board) => {
-  const scores = response.result.sort((x, y) =>  y.score - x.score);
+  const scores = response.result.sort((x, y) => y.score - x.score);
   createList(scores, board);
 };
 
-const createList = (scores, board) => { 
+const createList = (scores, board) => {
   let output = '';
   scores.forEach((score) => {
     output += `
@@ -28,12 +28,12 @@ const postRequest = async (playerName, playerScore) => {
   const reply = await fetch(link, {
     method: 'POST',
     headers: {
-      'Content-Type' : 'application/json',
+      'Content-Type': 'application/json',
     },
-    body: JSON.stringify({ 
-        user: playerName,
-        score: playerScore
-      })
+    body: JSON.stringify({
+      user: playerName,
+      score: playerScore,
+    }),
   });
   const result = reply.json();
   return result;
@@ -45,4 +45,4 @@ const getRequest = async () => {
   return result;
 };
 
-export {postRequest, showScoreBoard};
+export { postRequest, showScoreBoard };

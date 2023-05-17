@@ -1,6 +1,5 @@
 import './style.css';
-import { showScoreBoard } from '../modules/allFunctions';
-import { postRequest } from '../modules/allFunctions';
+import { showScoreBoard, postRequest } from '../modules/allFunctions';
 
 const playerName = document.getElementById('name');
 const playerScore = document.getElementById('score');
