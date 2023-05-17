@@ -32,17 +32,17 @@ const sortRequest = (response, board) => {
   createList(scores, board);
 };
 
+const getRequest = async () => {
+  const res = await fetch(link);
+  const result = await res.json();
+  return result;
+};
+
 const showScoreBoard = (board) => {
   // board.innerHTML = '';
   getRequest().then((response) => {
     sortRequest(response, board);
   });
-};
-
-const getRequest = async () => {
-  const res = await fetch(link);
-  const result = await res.json();
-  return result;
 };
 
 export { postRequest, showScoreBoard };
