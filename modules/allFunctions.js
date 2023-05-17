@@ -1,6 +1,6 @@
 const mosidrum = 'adN0yUvvGhYwwgO6gTve';
 const link = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${mosidrum}/scores`;
-// Game with ID: KIZQL16m2y5kBbDoKcjZ
+// Game with ID unused: KIZQL16m2y5kBbDoKcjZ
 
 const showScoreBoard = (board) => {
   // board.innerHTML = '';
