@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 * {
   padding: 0;
@@ -7,44 +7,49 @@
 }
 
 body {
-  font-family: 'Exo 2', sans-serif;
-  padding: 10rem;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  position: relative;
+  font-family: 'Press Start 2P', cursive;
+  padding-top: 5rem;
+  background-image: linear-gradient(to right, #141e30, #243b55);
+  color: greenyellow;
 }
 
 .content {
-  display: inline-block;
+  display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   width: 100%;
-  font-size: 1.3rem;
+  font-size: 1rem;
+  margin-top: 5%;
 }
 
 .title {
+  text-align: left;
   font-size: 3rem;
   margin-left: 14rem;
 }
 
 .score {
-  display: inline-flex;
-  vertical-align: middle;
+  display: flex;
   flex-direction: column;
   margin-right: 20rem;
   padding: 0.5rem;
   width: 25%;
-  font-size: 1.3rem;
+  font-size: 1rem;
+  /* stylelint-disable */
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  /* stylelint-enable */
+  border: none;
+  border-radius: 0.5rem;
 }
 
 .scorelist {
-  display: inline-block;
-  margin-top: 0.5rem;
-  border: 1px solid #000;
+  padding: 10px;
+}
+
+.scorelist li {
   padding: 0.5rem;
-  text-align: left;
 }
 
 .score ul li {
@@ -57,13 +62,41 @@ form button {
   bottom: 3rem;
   right: 1rem;
   padding: 0.5rem;
-  font-size: 1.3rem;
+  font-size: 0.8rem;
+  color: greenyellow;
+  outline: none;
+  background: inherit;
+  border: none;
+  font-family: 'Press Start 2P', cursive;
+  border-radius: 0.5rem;
+}
+
+.scorelist-container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  text-align: left;
 }
 
 .scoreheading button {
   width: 6rem;
+  text-align: center;
   padding: 0.7rem;
-  font-size: 1.3rem;
+  font-size: 0.6rem;
+  font-family: 'Press Start 2P', cursive;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  background: inherit;
+  color: greenyellow;
+}
+
+.scoreheading h2 {
+  font-size: 0.9rem;
 }
 
 form button:hover {
@@ -73,7 +106,10 @@ form button:hover {
 .scoreheading {
   display: flex;
   flex-direction: row;
-  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 7rem;
 }
 
 .scoreheading button:hover {
@@ -82,21 +118,37 @@ form button:hover {
 
 form {
   width: 25%;
+  border: none;
+  border-radius: 0.5rem;
   padding: 1rem;
-  height: 20rem;
-  display: inline-flex;
-  vertical-align: middle;
+  height: 16rem;
+  display: flex;
   flex-direction: column;
   position: relative;
+  /* stylelint-disable */
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  /* stylelint-enable */
 }
 
 form input {
   width: 100%;
+  border: none;
+  outline: none;
   height: 2.5rem;
-  font-size: 1.3rem;
+  font-size: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  background-image: linear-gradient(to right, #141e30, #243b55);
+  color: greenyellow;
   padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-family: 'Press Start 2P', cursive;
+}
+
+form input:focus {
+  outline: none;
 }
 
 .form-title {
+  font-size: 1.2rem;
   padding-bottom: 1rem;
 }
