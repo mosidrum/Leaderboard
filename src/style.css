@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -36,13 +37,13 @@ body {
   padding: 0.5rem;
   width: 25%;
   font-size: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  box-shadow: rgba(0px, 0px, 0px, 0.56) 0px 22px 70px 4px;
   border: none;
   border-radius: 0.5rem;
 }
 
 .scorelist {
- padding: 10px;
+  padding: 10px;
 }
 
 .scorelist li {
@@ -85,6 +86,11 @@ form button {
   padding: 0.7rem;
   font-size: 0.6rem;
   font-family: 'Press Start 2P', cursive;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  background: inherit;
+  color: greenyellow;
 }
 
 .scoreheading h2 {
@@ -104,14 +110,6 @@ form button:hover {
   gap: 7rem;
 }
 
-.scoreheading button {
-  border-radius: 0.5rem;
-  border: none;
-  outline: none;
-  background: inherit;
-  color: greenyellow;
-}
-
 .scoreheading button:hover {
   cursor: pointer;
 }
@@ -125,7 +123,7 @@ form {
   display: flex;
   flex-direction: column;
   position: relative;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  box-shadow: rgba(0px, 0px, 0px, 0.56) 0px 22px 70px 4px;
 }
 
 form input {
