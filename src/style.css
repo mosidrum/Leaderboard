@@ -37,7 +37,7 @@ body {
   padding: 0.5rem;
   width: 25%;
   font-size: 1rem;
-  box-shadow: rgba(0px, 0px, 0px, 0.56) 0px 22px 70px 4px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   border: none;
   border-radius: 0.5rem;
 }
@@ -123,7 +123,7 @@ form {
   display: flex;
   flex-direction: column;
   position: relative;
-  box-shadow: rgba(0px, 0px, 0px, 0.56) 0px 22px 70px 4px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 form input {
